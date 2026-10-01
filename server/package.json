@@ -1,0 +1,19 @@
+{
+  "name": "vigi360-backend",
+  "version": "1.0.0",
+  "description": "Backend server for Vigi360 Fleet Safety Dashboard",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "seed:drivers": "node seedDrivers.js",
+    "seed:vehicles": "node seedVehicles.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.10.0"
+  }
+}
